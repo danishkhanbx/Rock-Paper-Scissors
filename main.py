@@ -85,7 +85,7 @@ def updateChoice(x):
 # Update Winner-Loser
 def winlose(player, computer):
     if player == computer:
-        updateMessage('Its a tie!!!')
+        updateMessage('Its a Tie!!!')
     elif player == 'rock':
         if computer == 'paper':
             updateMessage('You loose')
