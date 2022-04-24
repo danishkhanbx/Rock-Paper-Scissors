@@ -95,14 +95,14 @@ def winlose(player, computer):
             updateUserScore()
     elif player == 'paper':
         if computer == 'scissor':
-            updateMessage('You loose')
+            updateMessage('You Loose')
             updateComputerScore()
         else:
             updateMessage('You Win')
             updateUserScore()
     elif player == 'scissor':
         if computer == 'rock':
-            updateMessage('You loose')
+            updateMessage('You Loose')
             updateComputerScore()
         else:
             updateMessage('You Win')
